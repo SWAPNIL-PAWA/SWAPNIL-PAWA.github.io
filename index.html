@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> River House - Premium Co-living in Pune</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="download.png" alt="RIVERHOUSE">
+                </div>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#how-it-works">How it works</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-bg"></div>
+                <div class="container">
+                    <div class="hero-content">
+                        <h1 class="animate__animated animate__fadeInUp">Looking for a PG in <span class="highlight">Pune</span>?</h1>
+                        <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Please DON'T! <span class="highlight">You deserve better.</span></h1>
+                        <p class="animate__animated animate__fadeInUp animate__delay-2s">Discover a new way of living in a River House community, where modern comfort and vibrant connections seamlessly blend, creating a unique and inclusive living experience that's second to none.</p>
+
+                        <div class="features animate__animated animate__fadeInUp animate__delay-2s">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <span>Fully Furnished</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-truck-moving"></i>
+                                </div>
+                                <span>Ready to Move-in</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <span>Fully Managed</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-broom"></i>
+                                </div>
+                                <span>Free Housekeeping</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <span>Free Maintenance</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <span>Food Subscriptions</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-unlock"></i>
+                                </div>
+                                <span>No Lock In</span>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <span>1 Month Rent as Security Deposit</span>
+                            </div>
+                        </div>
+
+                        <div class="stats animate__animated animate__fadeInUp animate__delay-3s">
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h2>50k+</h2>
+                                <p>Customers</p>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-building"></i>
+                                </div>
+                                <h2>450+</h2>
+                                <p>Zolo Habitats</p>
+                            </div>
+                            <div class="stat-divider"></div>
+                            <div class="stat">
+                                <div class="stat-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h2>10+</h2>
+                                <p>Cities & Counting</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lead-form-container animate__animated animate__fadeInRight">
+                        <div class="lead-form">
+                            <div class="form-header">
+                                <div class="discount-badge">50% OFF</div>
+                                <h3>Avail Upto <span class="highlight">50% OFF</span> On Rent*</h3>
+                                <p>Limited time offer for new bookings</p>
+                            </div>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-user"></i>
+                                        <input type="text" id="name" placeholder="Enter your name" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <div class="input-wrapper">
+                                        <i class="fas fa-envelope"></i>
+                                        <input type="email" id="email" placeholder="Enter your email" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="locality">Interested Locality</label>
+                                    <div class="select-wrapper">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <select id="locality" required>
+                                            <option value="" disabled selected>Select a locality</option>
+                                            <option value="hinjewadi">Hinjewadi</option>
+                                            <option value="baner">Baner</option>
+                                            <option value="kharadi">Kharadi</option>
+                                            <option value="viman-nagar">Viman Nagar</option>
+                                            <option value="wakad">Wakad</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="submit" class="cta-button">
+                                    <span>GET A CALLBACK!</span>
+                                    <i class="fas fa-arrow-right"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="trending" id="trending">
+                <div class="section-bg"></div>
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Trending <span class="highlight">Stays</span></h2>
+                        <a href="#" class="view-all">View All <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <p class="section-subheading">Discover the Most Popular Hotels in our Collection</p>
+
+                    <div class="swiper property-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image">
+                                        <div class="property-tag">Popular</div>
+                                        <div class="property-rating">
+                                            <i class="fas fa-star"></i>
+                                            <span>4.8</span>
+                                        </div>
+                                    </div>
+                                    <div class="property-info">
+                                        <h3>Zolo Sunshine</h3>
+                                        <p><i class="fas fa-map-marker-alt"></i> Hinjewadi, Pune</p>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed"></i> Single & Double</span>
+                                            <span><i class="fas fa-venus-mars"></i> Co-ed</span>
+                                        </div>
+                                        <div class="property-amenities">
+                                            <span><i class="fas fa-wifi"></i></span>
+                                            <span><i class="fas fa-utensils"></i></span>
+                                            <span><i class="fas fa-dumbbell"></i></span>
+                                            <span><i class="fas fa-tv"></i></span>
+                                        </div>
+                                        <div class="property-price">
+                                            <div>
+                                                <span>Starting from</span>
+                                                <h4>₹9,999<small>/month</small></h4>
+                                            </div>
+                                            <button class="view-details-btn">View Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image property-image-2">
+                                        <div class="property-tag property-tag-new">New</div>
+                                        <div class="property-rating">
+                                            <i class="fas fa-star"></i>
+                                            <span>4.7</span>
+                                        </div>
+                                    </div>
+                                    <div class="property-info">
+                                        <h3>Zolo Moonlight</h3>
+                                        <p><i class="fas fa-map-marker-alt"></i> Baner, Pune</p>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed"></i> Single & Double</span>
+                                            <span><i class="fas fa-venus-mars"></i> Co-ed</span>
+                                        </div>
+                                        <div class="property-amenities">
+                                            <span><i class="fas fa-wifi"></i></span>
+                                            <span><i class="fas fa-utensils"></i></span>
+                                            <span><i class="fas fa-dumbbell"></i></span>
+                                            <span><i class="fas fa-tv"></i></span>
+                                        </div>
+                                        <div class="property-price">
+                                            <div>
+                                                <span>Starting from</span>
+                                                <h4>₹10,499<small>/month</small></h4>
+                                            </div>
+                                            <button class="view-details-btn">View Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image property-image-3">
+                                        <div class="property-tag property-tag-offer">20% Off</div>
+                                        <div class="property-rating">
+                                            <i class="fas fa-star"></i>
+                                            <span>4.9</span>
+                                        </div>
+                                    </div>
+                                    <div class="property-info">
+                                        <h3>Zolo Starlight</h3>
+                                        <p><i class="fas fa-map-marker-alt"></i> Kharadi, Pune</p>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed"></i> Single & Double</span>
+                                            <span><i class="fas fa-venus-mars"></i> Co-ed</span>
+                                        </div>
+                                        <div class="property-amenities">
+                                            <span><i class="fas fa-wifi"></i></span>
+                                            <span><i class="fas fa-utensils"></i></span>
+                                            <span><i class="fas fa-dumbbell"></i></span>
+                                            <span><i class="fas fa-tv"></i></span>
+                                        </div>
+                                        <div class="property-price">
+                                            <div>
+                                                <span>Starting from</span>
+                                                <h4>₹9,499<small>/month</small></h4>
+                                            </div>
+                                            <button class="view-details-btn">View Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image property-image-4">
+                                        <div class="property-tag">Premium</div>
+                                        <div class="property-rating">
+                                            <i class="fas fa-star"></i>
+                                            <span>4.6</span>
+                                        </div>
+                                    </div>
+                                    <div class="property-info">
+                                        <h3>Zolo Horizon</h3>
+                                        <p><i class="fas fa-map-marker-alt"></i> Viman Nagar, Pune</p>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed"></i> Single & Double</span>
+                                            <span><i class="fas fa-venus-mars"></i> Co-ed</span>
+                                        </div>
+                                        <div class="property-amenities">
+                                            <span><i class="fas fa-wifi"></i></span>
+                                            <span><i class="fas fa-utensils"></i></span>
+                                            <span><i class="fas fa-dumbbell"></i></span>
+                                            <span><i class="fas fa-tv"></i></span>
+                                        </div>
+                                        <div class="property-price">
+                                            <div>
+                                                <span>Starting from</span>
+                                                <h4>₹11,999<small>/month</small></h4>
+                                            </div>
+                                            <button class="view-details-btn">View Details</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials" id="testimonials">
+                <div class="container">
+                    <h2 class="section-title">What Our <span class="highlight">Residents</span> Say</h2>
+                    <p class="section-subheading">Real experiences from our community members</p>
+
+                    <div class="testimonial-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">"Relocating to Pune was a fantastic decision. The community is welcoming, and I've built lasting friendships. The amenities are exceptional, and the staff is consistently supportive and helpful"</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">
+                                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya S.">
+                                        </div>
+                                        <div class="testimonial-info">
+                                            <h4>Priya S.</h4>
+                                            <p>Software Engineer, Hinjewadi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="testimonial-text">"The convenience of my living situation is unmatched. With fully furnished rooms and food subscriptions, everything is taken care of. I can focus on my work without the distraction of household chores."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">
+                                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul M.">
+                                        </div>
+                                        <div class="testimonial-info">
+                                            <h4>Rahul M.</h4>
+                                            <p>Product Manager, Baner</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <p class="testimonial-text">"As someone new to the city, my accommodation has offered me more than just a place to stay – it's provided a community. The events and activities organized here help me connect with like-minded people, making it a
+                                        place to build relationships and not just live."</p>
+                                    <div class="testimonial-author">
+                                        <div class="testimonial-avatar">
+                                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ananya K.">
+                                        </div>
+                                        <div class="testimonial-info">
+                                            <h4>Ananya K.</h4>
+                                            <p>Marketing Specialist, Kharadi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="how-it-works" id="how-it-works">
+                <div class="container">
+                    <h2 class="section-title">How It <span class="highlight">Works</span></h2>
+                    <p class="section-subheading">Simple steps to your new home</p>
+
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-search"></i>
+                                <div class="step-number">1</div>
+                            </div>
+                            <h3>Explore & Choose</h3>
+                            <p>Browse our properties and select the one that suits your needs and budget.</p>
+                        </div>
+                        <div class="step-connector"></div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-calendar-check"></i>
+                                <div class="step-number">2</div>
+                            </div>
+                            <h3>Book & Pay</h3>
+                            <p>Reserve your spot with a simple booking process and secure payment options.</p>
+                        </div>
+                        <div class="step-connector"></div>
+                        <div class="step">
+                            <div class="step-icon">
+                                <i class="fas fa-home"></i>
+                                <div class="step-number">3</div>
+                            </div>
+                            <h3>Move In</h3>
+                            <p>Arrive at your fully furnished Zolo home and start enjoying the community.</p>
+                        </div>
+                    </div>
+
+                    <div class="cta-container">
+                        <h3>Ready to find your perfect co-living space?</h3>
+                        <button class="cta-button secondary">
+                            <span>Explore Properties</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="amenities" id="amenities">
+                <div class="container">
+                    <h2 class="section-title">Premium <span class="highlight">Amenities</span></h2>
+                    <p class="section-subheading">Everything you need for comfortable living</p>
+
+                    <div class="amenities-grid">
+                        <div class="amenity-card">
+                            <div class="amenity-icon">
+                                <i class="fas fa-wifi"></i>
+                            </div>
+                            <h3>High-Speed WiFi</h3>
+                            <p>Stay connected with unlimited high-speed internet access.</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <h3>Meal Plans</h3>
+                            <p>Enjoy delicious meals with flexible food subscription options.</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">
+                                <i class="fas fa-dumbbell"></i>
+                            </div>
+                            <h3>Fitness Center</h3>
+                            <p>Stay fit with our well-equipped gym facilities.</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">
+                                <i class="fas fa-couch"></i>
+                            </div>
+                            <h3>Common Areas</h3>
+                            <p>Socialize in our thoughtfully designed community spaces.</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">
+                                <i class="fas fa-broom"></i>
+                            </div>
+                            <h3>Housekeeping</h3>
+                            <p>Regular cleaning services to keep your space tidy.</p>
+                        </div>
+                        <div class="amenity-card">
+                            <div class="amenity-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h3>24/7 Security</h3>
+                            <p>Feel safe with round-the-clock security and CCTV surveillance.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-logo">
+                            <img src="download.png" alt="Zolo Logo">
+                            <p>Live Bold. Choose Spark.</p>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="footer-links">
+                            <div class="footer-column">
+                                <h4>Company</h4>
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <h4>Policies</h4>
+                                <ul>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Cancellation Policy</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <h4>Popular Locations</h4>
+                                <ul>
+                                    <li><a href="#">Hinjewadi</a></li>
+                                    <li><a href="#">Baner</a></li>
+                                    <li><a href="#">Kharadi</a></li>
+                                    <li><a href="#">Viman Nagar</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer-newsletter">
+                            <h4>Subscribe to our Newsletter</h4>
+                            <p>Get the latest updates and offers</p>
+                            <form class="newsletter-form">
+                                <input type="email" placeholder="Your email address">
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>&copy; 2025 River House. All rights reserved.</p>
+                    <div class="payment-methods">
+                        <span>We accept:</span>
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-amex"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="floating-cta">
+        <button class="floating-button">
+            <i class="fas fa-phone-alt"></i>
+            <span>Get a Callback</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
